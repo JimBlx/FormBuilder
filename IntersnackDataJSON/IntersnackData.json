@@ -1,0 +1,47 @@
+{
+  "_id": "1234567",
+  "objectCode": "???????",
+  "gtin": "0900015914835",
+  "descriptiveName": "xyz",
+  "revisionCount": 4,
+  "templateVersion": 3,
+  "changeCount": 7,
+  "tenantId": 1234,
+  "dataSchemaRevision": 1,
+  "dateCreated": "",
+  "dateModified": "",
+  "sections": [
+  {
+    "section": "Initialization"
+  },
+  {
+	"section": "HiddenVariables"
+  
+  },
+  {
+    "section": "TradeItemPrimaryInformation",
+    "BaseTradeItemUnitDescriptor": "BASE_UNIT",
+    "TargetCountry": "040",
+    "TargetCountryCode": "Austria",
+    "Information_Provider": 123456789
+  },
+  {
+    "section": "ItemDescription",
+    "WSOInternalItemIDofSupplier":  "7243",
+    "Description": "(Brand)",
+    "SubBrand": "(SubBrand)",
+    "Multival": ["aa", "bb", "cc"],
+    
+    "VariantDescr": [
+      {"LineNo": 1,
+        "VariantName":  "xyz", 
+        "LanguageCode": "ENG"
+      },
+      {"LineNo": 2,
+        "VariantName":  "abc", 
+        "LanguageCode": "GERMAN"
+      }
+    ]
+  }
+  ]  
+}
